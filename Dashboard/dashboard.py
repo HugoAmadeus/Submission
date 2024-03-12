@@ -14,7 +14,7 @@ import seaborn as sns
 import streamlit as st
 
 data_day = pd.read_csv('https://raw.githubusercontent.com/HugoAmadeus/Submission/main/Dashboard/day.csv')
-data_hour = pd.read_csv('')
+data_hour = pd.read_csv('https://raw.githubusercontent.com/HugoAmadeus/Submission/main/Dashboard/hour.csv')
 
 data_bike = data_hour.merge(data_day, on='dteday', how='inner', suffixes=('_hour', '_day'))
 

@@ -33,3 +33,22 @@ Password/Enpoint IP for localtunnel is:  34.73.30.7
 npx: installed 22 in 1.766s
 your url is: https://wild-cows-roll.loca.lt
 ```
+## Run Streamlit on Local
+
+## Install Dependencies
+
+Ikuti langkah di bawah ini untuk menjalankan file dashboard
+### Aktivkan virtual environtment : 
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+```
+### Install file requirement
+```bash
+pip install -r requirements.txt
+```
+### Run Dashboard
+```bash
+streamlit run [dashboard.py]
+```
+#### Reminder: Pastikan path dashboard tersebut sesuai dengan tempat anda menyimpan file tersebut
